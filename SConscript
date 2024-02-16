@@ -11,9 +11,11 @@ if GetDepend(['PKG_USING_LEVEL_NOR']):
 if GetDepend(['PKG_USING_LEVEL_NAND']):
     src += Glob(cwd+"/common/src/lx_nand*.c")
 
+CPPDEFINES = ['LX_INCLUDE_USER_DEFINE_FILE']
+
 
 path    = [cwd + '/common/inc']
-path += [cwd + '/ports/generic/inc']
-group = DefineGroup('Levelx', src, depend = ['PKG_USING_LEVELX'], CPPPATH = path)
+path += [cwd + '/levelx/']
+group = DefineGroup('Levelx', src, depend = ['PKG_USING_LEVELX'], CPPDEFINES = CPPDEFINES,CPPPATH = path)
 
 Return('group')

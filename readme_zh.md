@@ -1,6 +1,6 @@
 # Azure RTOS LevelX FOR RTThread
 
-这是threadx rtos 的磨损均衡组件在rtthread rtos 上面的移植
+这是threadx rtos 的磨损均衡组件在rtthread rtos 上面的移植,代码仅供学习使用
 
 提供一个基于mtd设备的norflash移植demo
 
