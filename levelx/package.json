@@ -1,6 +1,6 @@
 {
   "name": "levelx",
-  "description": "Threadx's wear-leveling component.",
+  "description": "levelx:Threadx's wear-leveling component.",
   "description_zh": "Threadx生态组件，磨损均衡组件 ",
   "enable": "PKG_USING_LEVELX",
   "keywords": [
