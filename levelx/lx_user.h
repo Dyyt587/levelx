@@ -116,7 +116,7 @@
 
 /* Defined, LevelX will be used in standalone mode (without Azure RTOS ThreadX) */
 
-/* #define LX_STANDALONE_ENABLE */
+#define LX_STANDALONE_ENABLE 
 
 /* Define user extension for NOR flash control block. User extension is placed at the end of flash control block and it is not cleared on opening flash. */
 /* 
